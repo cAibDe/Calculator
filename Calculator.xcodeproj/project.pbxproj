@@ -15,6 +15,7 @@
 		6E317FA52918EEAE00052EA8 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E317FA42918EEAE00052EA8 /* CalculatorUITests.swift */; };
 		6E317FA72918EEAE00052EA8 /* CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E317FA62918EEAE00052EA8 /* CalculatorUITestsLaunchTests.swift */; };
 		6E317FB62918F8D900052EA8 /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E317FB52918F8D900052EA8 /* CalculatorButtonItem.swift */; };
+		6E317FB82919DE7700052EA8 /* ColorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E317FB72919DE7700052EA8 /* ColorConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		6E317FA42918EEAE00052EA8 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		6E317FA62918EEAE00052EA8 /* CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6E317FB52918F8D900052EA8 /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
+		6E317FB72919DE7700052EA8 /* ColorConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				6E317F892918EEAB00052EA8 /* CalculatorApp.swift */,
 				6E317F8B2918EEAB00052EA8 /* ContentView.swift */,
 				6E317FB52918F8D900052EA8 /* CalculatorButtonItem.swift */,
+				6E317FB72919DE7700052EA8 /* ColorConfig.swift */,
 				6E317F8D2918EEAE00052EA8 /* Assets.xcassets */,
 				6E317F8F2918EEAE00052EA8 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E317F8C2918EEAB00052EA8 /* ContentView.swift in Sources */,
+				6E317FB82919DE7700052EA8 /* ColorConfig.swift in Sources */,
 				6E317F8A2918EEAB00052EA8 /* CalculatorApp.swift in Sources */,
 				6E317FB62918F8D900052EA8 /* CalculatorButtonItem.swift in Sources */,
 			);

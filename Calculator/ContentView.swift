@@ -13,6 +13,7 @@ struct ContentView: View {
         VStack(spacing: 12) {
             Spacer()
             Text("0").font(.system(size: 76))
+                .foregroundColor(.calculatorButtonColor)
                 .minimumScaleFactor(0.5)
                 .padding(.trailing,24)
                 .lineLimit(1)
@@ -20,7 +21,7 @@ struct ContentView: View {
                        maxWidth: .infinity,
                        alignment: .trailing)
             CalculatorButtonPad().padding(.bottom)
-        }.scaleEffect(scale)
+        }
     }
 }
 /// 纵向按钮集合抽象
@@ -72,7 +73,7 @@ struct CalculatorButton: View {
         Button(action: action) {
             Text(title)
                 .font(.system(size: fontSIze))
-                .foregroundColor(.white)
+                .foregroundColor(.calculatorTextColor)
                 .frame(width: size.width,height: size.height)
                 .background(backgroundClolor)
                 .cornerRadius(size.width/2)
